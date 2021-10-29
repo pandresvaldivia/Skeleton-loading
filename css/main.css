@@ -1,0 +1,20 @@
+:root {
+	--white: #ffffff;
+	--black: #040b1d;
+	--grey: #c4c4c4;
+	--primary: #0a004e;
+	--grey10: #d2d2d2;
+	--bg: #ecf0f1;
+	--fontBase: 'Raleway', sans-serif;
+	--headline1: 700 1.125rem/1.75rem var(--fontBase);
+	--small: 500 0.75rem/0.8806rem var(--fontBase);
+}
+
+.body {
+	background: var(--bg);
+	margin: 0;
+}
+
+.wrapper {
+	padding: 1rem;
+}

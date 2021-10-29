@@ -1,0 +1,41 @@
+.techPost {
+	display: flex;
+	background: var(--white);
+	border-radius: 0.75rem;
+	-webkit-border-radius: 0.75rem;
+	-moz-border-radius: 0.75rem;
+	-ms-border-radius: 0.75rem;
+	-o-border-radius: 0.75rem;
+	padding: 1rem;
+	gap: 1rem;
+	position: relative;
+}
+
+.techPost-link {
+	position: absolute;
+	inset: 0;
+	border-radius: 0.75rem;
+	-webkit-border-radius: 0.75rem;
+	-moz-border-radius: 0.75rem;
+	-ms-border-radius: 0.75rem;
+	-o-border-radius: 0.75rem;
+}
+
+.techPost-poster {
+	margin: 0;
+	border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+	-moz-border-radius: 0.5rem;
+	-ms-border-radius: 0.5rem;
+	-o-border-radius: 0.5rem;
+	overflow: hidden;
+	inline-size: 5.3125rem;
+	block-size: 7.25rem;
+	flex-shrink: 0;
+}
+
+.techPost-poster img {
+	vertical-align: middle;
+	inline-size: 100%;
+	block-size: auto;
+}

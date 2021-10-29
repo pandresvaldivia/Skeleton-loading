@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	justify-content: center;
+	padding-block-end: 1.6875rem;
+	padding-block-start: 1.6875rem;
+	background: var(--white);
+}
+
+.header-logo {
+	margin: 0;
+	block-size: 5rem;
+}
+
+.header-logo img {
+	vertical-align: middle;
+	block-size: 100%;
+	inline-size: auto;
+}
+
+.header-title {
+	font: var(--headline1);
+	text-transform: uppercase;
+	color: var(--primary);
+}
