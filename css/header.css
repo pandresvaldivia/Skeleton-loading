@@ -23,4 +23,5 @@
 	font: var(--headline1);
 	text-transform: uppercase;
 	color: var(--primary);
+	text-decoration: none;
 }

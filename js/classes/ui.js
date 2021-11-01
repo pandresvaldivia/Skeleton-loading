@@ -58,6 +58,7 @@ class UI {
 	async createSection() {
 		const $postSection = document.createElement('section');
 		$postSection.classList.add('postSection');
+		$postSection.ariaLabel = 'Publicaciones';
 
 		const res = await fetch(this.jsonPath);
 		const { posts } = await res.json();
