@@ -1,28 +1,28 @@
 .skeleton-content {
 	display: flex;
 	flex-direction: column;
-	gap: 9px;
-	padding-block-start: 6px;
-	padding-block-end: 4px;
+	gap: 0.5625rem;
+	padding-block-start: 0.375rem;
+	padding-block-end: 0.25rem;
 	margin-block-end: 1rem;
 }
 
 .skeleton-content > * {
-	block-size: 18px;
-	inline-size: 114px;
-	border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	-ms-border-radius: 2px;
-	-o-border-radius: 2px;
+	block-size: 1.125rem;
+	inline-size: 7.125rem;
+	border-radius: 0.125rem;
+	-webkit-border-radius: 0.125rem;
+	-moz-border-radius: 0.125rem;
+	-ms-border-radius: 0.125rem;
+	-o-border-radius: 0.125rem;
 }
 
 .skeleton-content div:first-of-type {
-	inline-size: 164px;
+	inline-size: 10.25rem;
 }
 
 .skeleton-content div:last-of-type {
-	inline-size: 184px;
+	inline-size: 11.5rem;
 }
 
 .skeleton-details {
@@ -42,13 +42,13 @@
 
 .skeleton-info {
 	block-size: 0.5rem;
-	inline-size: 93px;
+	inline-size: 5.8125rem;
 	margin-inline-start: 0.5rem;
-	border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	-ms-border-radius: 2px;
-	-o-border-radius: 2px;
+	border-radius: 0.125rem;
+	-webkit-border-radius: 0.125rem;
+	-moz-border-radius: 0.125rem;
+	-ms-border-radius: 0.125rem;
+	-o-border-radius: 0.125rem;
 }
 
 .skeleton-info:last-of-type {
@@ -59,11 +59,11 @@
 .is-loading {
 	background-image: linear-gradient(
 		100deg,
-		var(--grey10) 40%,
-		#f1f1f1,
-		var(--grey10) 60%
+		var(--grey10),
+		#f1f1f1 50%,
+		var(--grey10) 80%
 	);
-	background-position: -185px;
+	background-position: 100% 0;
 	background-size: 370px;
 	background-repeat: no-repeat;
 	animation: load 1.3s ease infinite;
@@ -72,6 +72,6 @@
 
 @keyframes load {
 	to {
-		background-position: 0;
+		background-position: 0 0, 0 0;
 	}
 }
