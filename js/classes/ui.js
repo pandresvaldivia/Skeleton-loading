@@ -6,14 +6,16 @@ class UI {
 		this.imagePath = imagePath;
 	}
 
-	createPost({ poster, title, user, photo, time }) {
+	createPost({ poster, title, user, photo, time, url }) {
 		const $post = document.createElement('article');
 		$post.classList.add('techPost');
 
 		$post.innerHTML = `
         <a
         class="techPost-link"
-        href="#"
+        href="${url}"
+        rel="noreferrer"
+        target="_blank"
         title="${title}"
         aria-label="${title}"
         ></a>
@@ -33,7 +35,7 @@ class UI {
                 ${title}
             </h2>
             <div class="postDescription-details">
-                <div class="postDescription-user">
+                <div class="postDescription-user" title="${user}">
                     <figure class="postDescription-avatar">
                         <img
                             src="${this.imagePath + photo}"
