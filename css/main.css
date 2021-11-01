@@ -18,3 +18,10 @@
 .wrapper {
 	padding: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+	.wrapper {
+		padding-block-end: 3.9375rem;
+		padding-block-start: 3.9375rem;
+	}
+}

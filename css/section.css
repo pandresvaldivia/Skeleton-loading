@@ -1,0 +1,17 @@
+.postSection,
+.skeletonSection {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-inline-size: 68.3125rem;
+	margin-inline-end: auto;
+	margin-inline-start: auto;
+}
+
+@media screen and (min-width: 768px) {
+	.postSection,
+	.skeletonSection {
+		gap: 2rem;
+	}
+}
